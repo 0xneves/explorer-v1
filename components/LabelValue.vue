@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Informational from '~/components/icon/Informational.vue';
+import Information from '~/components/icon/Information.vue';
 defineProps<{
   label: string;
   value?: string | number;
@@ -35,7 +35,7 @@ defineProps<{
           :placement="tooltipPos"
           :offset-distance="16"
         >
-          <Informational class="w-4 h-4" />
+          <Information class="w-5 h-5" />
         </Tooltip>
         <span
           class="text-[#bbbbbb] text-[15px] font-normal"

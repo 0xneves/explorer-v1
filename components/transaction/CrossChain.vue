@@ -3,7 +3,7 @@ import { computed } from 'vue'
 import { formatJsonPretty } from '~/composables/string'
 import { useScreenSize } from '~/composables/useScreenSize'
 import { useFormat } from '~/composables/useFormat'
-import Informational from '~/components/icon/Informational.vue'
+import Information from '~/components/icon/Information.vue'
 import IconCheckmarkFill from '~/components/icon/CheckmarkFill.vue'
 import IconCancel from '~/components/icon/Cancel.vue'
 import IconHourglass from '~/components/icon/Hourglass.vue'
@@ -184,7 +184,7 @@ const destinationIndicatorColor = computed(() => {
                     placement="right"
                     :offset-distance="16"
                   >
-                    <Informational class="w-4 h-4 text-[#6366f1]" />
+                    <Information class="w-5 h-5 text-[#6366f1]" />
                   </Tooltip>
                   <span class="text-[#bbbbbb] text-[15px]">
                     Transfer Flow:
@@ -489,7 +489,7 @@ const destinationIndicatorColor = computed(() => {
                     placement="right"
                     :offset-distance="16"
                   >
-                    <Informational class="w-4 h-4" />
+                    <Information class="w-5 h-5" />
                   </Tooltip>
                   <span class="text-[#bbbbbb] text-[15px] font-normal">
                     Continuation Data:
@@ -517,7 +517,7 @@ const destinationIndicatorColor = computed(() => {
                     placement="right"
                     :offset-distance="16"
                   >
-                    <Informational class="w-4 h-4" />
+                    <Information class="w-5 h-5" />
                   </Tooltip>
                   <span class="text-[#bbbbbb] text-[15px] font-normal">
                     Proof:
@@ -545,7 +545,7 @@ const destinationIndicatorColor = computed(() => {
                     placement="right"
                     :offset-distance="16"
                   >
-                    <Informational class="w-4 h-4" />
+                    <Information class="w-5 h-5" />
                   </Tooltip>
                   <span class="text-[#bbbbbb] text-[15px] font-normal">
                     Payload Data:

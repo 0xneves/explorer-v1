@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import { useScreenSize } from '~/composables/useScreenSize'
-import Informational from '~/components/icon/Informational.vue';
+import Information from '~/components/icon/Information.vue';
 import Eye from '~/components/icon/Eye.vue'
 import KadenaIcon from '~/components/icon/Kadena.vue'
 import UpperRightArrow from '~/components/icon/UpperRightArrow.vue'
@@ -213,7 +213,7 @@ useHead({
           <tr class="text-xs text-[#bbbbbb] font-medium border-b border-[#333] pb-2">
             <th class="text-left py-2">
               <div class="flex px-1">
-                <Informational class="w-3 h-3" />
+                <Information class="w-3 h-3" />
               </div>
             </th>
             <th class="text-left py-2">

@@ -17,7 +17,7 @@ import IconCancel from '~/components/icon/Cancel.vue';
 import Clock from '~/components/icon/Clock.vue'
 import SkeletonTransactionDetails from '~/components/skeleton/TransactionDetails.vue'
 import Tooltip from '~/components/Tooltip.vue'
-import Informational from '~/components/icon/Informational.vue'
+import Information from '~/components/icon/Information.vue'
 
 definePageMeta({
   layout: 'app',
@@ -804,7 +804,7 @@ onUnmounted(() => {
                             placement="right"
                             :offset-distance="16"
                           >
-                            <Informational class="w-4 h-4" />
+                            <Information class="w-5 h-5" />
                           </Tooltip>
                           <span class="text-[#bbbbbb] text-[15px] font-normal">
                             {{ textContent.inputData.label }}

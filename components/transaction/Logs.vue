@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 import { formatJsonPretty } from '~/composables/string'
 import { useScreenSize } from '~/composables/useScreenSize'
-import Informational from '~/components/icon/Informational.vue'
+import Information from '~/components/icon/Information.vue'
 import Tooltip from '~/components/Tooltip.vue'
 
 const props = defineProps<{
@@ -109,7 +109,7 @@ const sortedEvents = computed(() => {
                     placement="right"
                     :offset-distance="16"
                   >
-                    <Informational class="w-4 h-4" />
+                    <Information class="w-5 h-5" />
                   </Tooltip>
                   <span class="text-[#bbbbbb] text-[15px] font-normal">
                     {{ textContent.parameters.label }}
