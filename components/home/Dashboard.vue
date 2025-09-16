@@ -5,7 +5,7 @@ import { integer, money } from '~/composables/number';
 import { useTransactionCount } from '~/composables/useTransactionCount';
 import { useFormat } from '~/composables/useFormat';
 import KadenaIcon from '~/components/icon/Kadena.vue';
-import NetworkIcon from '~/components/icon/Network.vue';
+import MarketcapIcon from '~/components/icon/Marketcap.vue';
 import ServerIcon from '~/components/icon/Server.vue';
 import MeterIcon from '~/components/icon/Meter.vue';
 import Tooltip from '~/components/Tooltip.vue';
@@ -77,13 +77,13 @@ const marketCapInKda = computed(() => {
         <div class="border-t border-[#222222] my-5"></div>
         <div class="flex items-start justify-between">
           <div class="flex items-start">
-            <NetworkIcon class="w-7 h-7 mr-[12px]" />
+            <MarketcapIcon class="w-7 h-7 mr-[12px]" />
             <div>
               <div class="text-xs text-[#bbbbbb] mb-[1px]">MARKET CAP</div>
               <div class="text-[15px] text-[#f5f5f5] mt-[1px] mb-[3px]">
                 {{ marketCap ? money.format(marketCap) : '—' }}
                 <span v-if="marketCapInKda" class="text-[#bbbbbb] text-[14px]">
-                  ({{ integer.format(marketCapInKda.toFixed(0)) }} KDA)
+                  ({{ integer.format(Math.round(marketCapInKda)) }} KDA)
                 </span>
               </div>
             </div>

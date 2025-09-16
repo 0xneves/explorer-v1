@@ -1,24 +1,5 @@
 <template>
-  <svg id="Camada_1" xmlns="http://www.w3.org/2000/svg" viewBox="624 664 290 253">
-    <rect
-      fill="none"
-      stroke="#f5f5f5"
-      stroke-linecap="round"
-      stroke-miterlimit="10"
-      stroke-width="21"
-      x="634.5" y="674.5" width="269" height="93" rx="35.39" ry="35.39"
-    />
-    <rect
-      fill="none"
-      stroke="#f5f5f5"
-      stroke-linecap="round"
-      stroke-miterlimit="10"
-      stroke-width="21"
-      x="634.5" y="813.5" width="269" height="93" rx="35.39" ry="35.39"
-    />
-    <circle fill="#f5f5f5" cx="805.42" cy="720.19" r="16.98"/>
-    <circle fill="#f5f5f5" cx="854.42" cy="719.19" r="16.98"/>
-    <circle fill="#f5f5f5" cx="805.03" cy="864.97" r="16.98"/>
-    <circle fill="#f5f5f5" cx="854.03" cy="863.97" r="16.98"/>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="#f5f5f5" shape-rendering="geometricPrecision">
+    <path d="m119.48 79.65-32-35a2 2 0 0 0 -3.48 1.35v16h-42a2 2 0 0 0 -2 2v12.85l-27.29-29.85 27.29-29.85v12.85a2 2 0 0 0 2 2h56a2 2 0 0 0 0-4h-54v-16a2 2 0 0 0 -3.48-1.35l-32 35a2 2 0 0 0 0 2.7l32 35a2 2 0 0 0 3.48-1.35v-16h42a2 2 0 0 0 2-2v-12.85l27.29 29.85-27.29 29.85v-12.85a2 2 0 0 0 -2-2h-56a2 2 0 0 0 0 4h54v16a2 2 0 0 0 1.28 1.86 1.81 1.81 0 0 0 .72.14 2 2 0 0 0 1.48-.65l32-35a2 2 0 0 0 0-2.7z"/>
   </svg>
-</template> 
+</template>
